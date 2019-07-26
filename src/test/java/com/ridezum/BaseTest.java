@@ -13,7 +13,7 @@ public class BaseTest {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\CatKomp\\Downloads\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
+        //driver.manage().window().fullscreen();
         driver.get("https://ridezum.com/");
 
     }

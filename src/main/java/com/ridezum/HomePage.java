@@ -22,4 +22,13 @@ public class HomePage extends BasePage {
         return new ApplyPage(driver);
     }
 
+    @FindBy(css = ".main-menu__item")
+    List<WebElement> menuItems;
+
+    public CareersPage clickCareersButton() {
+
+        menuItems.get(4).click();
+        return new CareersPage(driver);
+    }
+
 }
