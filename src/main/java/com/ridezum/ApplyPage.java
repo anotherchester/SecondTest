@@ -84,7 +84,7 @@ public class ApplyPage extends BasePage {
 
         Select select = new Select(regionField);
 
-        select.selectByVisibleText("Southern California");
+        select.selectByVisibleText("California");
     }
 
     @FindBy(css = ".btn-apply.js-submit.app-apply-button.application-form__submit-button")

@@ -14,18 +14,17 @@ public class JobsPage extends BasePage {
     @FindBy (css=".posting-btn-submit.template-btn-submit.hex-color")
     List<WebElement> jobsList;
 
-    public void clickApply() {
+    public JobDescriptionPage clickApply() {
         jobsList.get(0).click();
-    }
-
-    @FindBy(css = ".postings-btn.template-btn-submit.hex-color")
-    private List<WebElement> applyCurrentJob;
-
-    public JobDescriptionPage clickApplyButton() {
-        applyCurrentJob.get(0).click();
         return new JobDescriptionPage(driver);
     }
 
+    @FindBy(css = ".postings-btn.template-btn-submit.hex-color")
+    private List<WebElement> applybtns;
 
+    public SelectedJobPage clickApplyForThisJob() {
+        applybtns.get(0).click();
+        return new SelectedJobPage(driver);
+    }
 
 }

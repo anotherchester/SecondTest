@@ -11,7 +11,7 @@ public class ApplyTest extends BaseTest {
     private ApplyPage applyPage;
 
     @Test
-    public void testApply() {
+    public void testApply() throws InterruptedException {
 
         homePage = new HomePage(driver);
         applyPage = homePage.clickApplyButton();
