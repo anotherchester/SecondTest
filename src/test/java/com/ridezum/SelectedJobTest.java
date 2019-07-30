@@ -1,5 +1,6 @@
 package com.ridezum;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 public class SelectedJobTest extends BaseTest {
@@ -7,8 +8,7 @@ public class SelectedJobTest extends BaseTest {
     public HomePage homePage;
     public CareersPage careersPage;
     public JobsPage jobsPage;
-    public JobDescriptionPage jobDescriptionPage;
-    public SelectedJobPage selectedJobPage;
+
 
     @Test
     public void testSelectedJob() throws InterruptedException {
@@ -21,7 +21,14 @@ public class SelectedJobTest extends BaseTest {
         }
         jobsPage.clickApply();
         jobsPage.clickApplyForThisJob();
-       // Thread.sleep(4000);
-        //selectedJobPage.fillName("Jack Jack");
+        jobsPage.fillName("Jack Jack");
+        jobsPage.fillEmail("some@mail.com");
+        jobsPage.fillPhone("1234567890");
+        jobsPage.selectGender(3);
+        jobsPage.selectRace(5);
+        jobsPage.selectVeteran(3);
+        jobsPage.clickSubmit();
+        String errortxt = jobsPage.getErrMsg();
+        Assert.assertEquals("✱ Please attach a resume",errortxt);
     }
 }

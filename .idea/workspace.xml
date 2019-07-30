@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4c5e869-ef0b-472f-afb6-2cbfd3cf9140" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/ApplyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/JobDescriptionPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/JobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/JobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/ApplyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/CareersTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SecondTest.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/SecondTest.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/ApplyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/ApplyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/CareersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/CareersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/JobDescriptionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/JobDescriptionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/SelectedJobPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/SelectedJobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/SelectedJobTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/JobDescriptionPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/JobsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/JobsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/ApplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/ApplyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/CareersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/VerificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/VerificationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/SelectedJobPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/SelectedJobTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/SelectedJobTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,19 +63,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SelectedJobTest.testSelectedJob">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ridezum.Main1" />
-      <module name="SecondTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ridezum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApplyTest.testApply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SecondTest" />
       <extension name="coverage">
@@ -117,6 +91,21 @@
       <option name="MAIN_CLASS_NAME" value="com.ridezum.CareersTest" />
       <option name="METHOD_NAME" value="testCareersPage" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectedJobTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SecondTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ridezum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ridezum" />
+      <option name="MAIN_CLASS_NAME" value="com.ridezum.SelectedJobTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,10 +145,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SelectedJobTest.testSelectedJob" />
+        <item itemvalue="JUnit.SelectedJobTest" />
         <item itemvalue="JUnit.VerificationTest.testVerify" />
         <item itemvalue="JUnit.ApplyTest.testApply" />
         <item itemvalue="JUnit.CareersTest.testCareersPage" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
