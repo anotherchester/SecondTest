@@ -79,7 +79,7 @@ public class JobsPage extends BasePage {
         select.selectByIndex(i);
     }
 
-    @FindBy(xpath = "/html/body/div[2]/div/div[2]/form/div[5]/button")
+    @FindBy(css = ".postings-btn.template-btn-submit.hex-color")
     private WebElement submitButton;
 
     public void clickSubmit() {
@@ -95,4 +95,6 @@ public class JobsPage extends BasePage {
         String errmsg = errorsList.get(0).getText();
         return errmsg;
     }
+
+    //some new code
 }
