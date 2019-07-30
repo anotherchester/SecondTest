@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a4c5e869-ef0b-472f-afb6-2cbfd3cf9140" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/JobDescriptionPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/JobsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ridezum/JobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ridezum/SelectedJobPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ridezum/SelectedJobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ridezum/SelectedJobTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/JobDescriptionPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/JobsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ridezum/JobsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ridezum/SelectedJobPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ridezum/SelectedJobTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ridezum/SelectedJobTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
